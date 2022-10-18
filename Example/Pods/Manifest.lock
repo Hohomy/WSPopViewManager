@@ -1,0 +1,16 @@
+PODS:
+  - WSPopViewManager (0.1.0)
+
+DEPENDENCIES:
+  - WSPopViewManager (from `../`)
+
+EXTERNAL SOURCES:
+  WSPopViewManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSPopViewManager: 6476b372b82ca0eed20c8e188a90dd55bc50533b
+
+PODFILE CHECKSUM: 46ac48ab0daf23e03246a85e4767fc4996a23bdb
+
+COCOAPODS: 1.11.3

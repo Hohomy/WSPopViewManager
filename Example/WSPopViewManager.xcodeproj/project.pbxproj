@@ -24,6 +24,15 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A024C45195EF5EC7D1F7257A /* Pods_WSPopViewManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A9860D50F0150981D33539 /* Pods_WSPopViewManager_Tests.framework */; };
 		C46A0D112464549239D59BD6 /* Pods_WSPopViewManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688F7F44CDA7A7B7B9559E /* Pods_WSPopViewManager_Example.framework */; };
+		E648508428FE994B00E438F1 /* WSPopViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507628FE994B00E438F1 /* WSPopViewHelper.m */; };
+		E648508528FE994B00E438F1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507928FE994B00E438F1 /* UIView+Frame.m */; };
+		E648508628FE994B00E438F1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E648507A28FE994B00E438F1 /* .gitkeep */; };
+		E648508728FE994B00E438F1 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507C28FE994B00E438F1 /* UIColorAdditions.m */; };
+		E648508828FE994B00E438F1 /* WSPopViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507D28FE994B00E438F1 /* WSPopViewManager.m */; };
+		E648508928FE994B00E438F1 /* WSPoppingAbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507F28FE994B00E438F1 /* WSPoppingAbstractView.m */; };
+		E648508B28FE994B00E438F1 /* UIView+QKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E648508328FE994B00E438F1 /* UIView+QKFrame.m */; };
+		E648508F28FE99B900E438F1 /* SelectDatePopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E648508C28FE99B900E438F1 /* SelectDatePopView.xib */; };
+		E648509028FE99B900E438F1 /* SelectDatePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648508D28FE99B900E438F1 /* SelectDatePopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		03A9860D50F0150981D33539 /* Pods_WSPopViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSPopViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EB28746DA236307E2FB8B5B /* WSPopViewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WSPopViewManager.podspec; path = ../WSPopViewManager.podspec; sourceTree = "<group>"; };
+		0EB28746DA236307E2FB8B5B /* WSPopViewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSPopViewManager.podspec; path = ../WSPopViewManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E3C42E6357A24D1C3791701 /* Pods-WSPopViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSPopViewManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B20FCB2466F3AAB1B3C1609 /* Pods-WSPopViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSPopViewManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSPopViewManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSPopViewManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +70,28 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E0621E4E7236587AFF4C45D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E0621E4E7236587AFF4C45D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		84688F7F44CDA7A7B7B9559E /* Pods_WSPopViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSPopViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB20243B3FF244016C3261D6 /* Pods-WSPopViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSPopViewManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BFAA7AF603EC7F56DC2D91DA /* Pods-WSPopViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSPopViewManager_Example.release.xcconfig"; path = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2D83C44E449C186E605637E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2D83C44E449C186E605637E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E648507628FE994B00E438F1 /* WSPopViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPopViewHelper.m; sourceTree = "<group>"; };
+		E648507728FE994B00E438F1 /* WSPopViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPopViewManager.h; sourceTree = "<group>"; };
+		E648507828FE994B00E438F1 /* WSPoppingAbstractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPoppingAbstractView.h; sourceTree = "<group>"; };
+		E648507928FE994B00E438F1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E648507A28FE994B00E438F1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E648507B28FE994B00E438F1 /* UIView+QKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QKFrame.h"; sourceTree = "<group>"; };
+		E648507C28FE994B00E438F1 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		E648507D28FE994B00E438F1 /* WSPopViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPopViewManager.m; sourceTree = "<group>"; };
+		E648507E28FE994B00E438F1 /* WSPopViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPopViewHelper.h; sourceTree = "<group>"; };
+		E648507F28FE994B00E438F1 /* WSPoppingAbstractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPoppingAbstractView.m; sourceTree = "<group>"; };
+		E648508028FE994B00E438F1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E648508128FE994B00E438F1 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		E648508328FE994B00E438F1 /* UIView+QKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QKFrame.m"; sourceTree = "<group>"; };
+		E648508C28FE99B900E438F1 /* SelectDatePopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDatePopView.xib; sourceTree = "<group>"; };
+		E648508D28FE99B900E438F1 /* SelectDatePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDatePopView.m; sourceTree = "<group>"; };
+		E648508E28FE99B900E438F1 /* SelectDatePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDatePopView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +123,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E648507528FE994B00E438F1 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for WSPopViewManager */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -132,6 +158,9 @@
 		6003F593195388D20070C39A /* Example for WSPopViewManager */ = {
 			isa = PBXGroup;
 			children = (
+				E648508E28FE99B900E438F1 /* SelectDatePopView.h */,
+				E648508D28FE99B900E438F1 /* SelectDatePopView.m */,
+				E648508C28FE99B900E438F1 /* SelectDatePopView.xib */,
 				6003F59C195388D20070C39A /* WSAppDelegate.h */,
 				6003F59D195388D20070C39A /* WSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +222,28 @@
 				2B20FCB2466F3AAB1B3C1609 /* Pods-WSPopViewManager_Tests.debug.xcconfig */,
 				1E3C42E6357A24D1C3791701 /* Pods-WSPopViewManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E648507528FE994B00E438F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E648507A28FE994B00E438F1 /* .gitkeep */,
+				E648507628FE994B00E438F1 /* WSPopViewHelper.m */,
+				E648507728FE994B00E438F1 /* WSPopViewManager.h */,
+				E648507828FE994B00E438F1 /* WSPoppingAbstractView.h */,
+				E648507928FE994B00E438F1 /* UIView+Frame.m */,
+				E648507B28FE994B00E438F1 /* UIView+QKFrame.h */,
+				E648507C28FE994B00E438F1 /* UIColorAdditions.m */,
+				E648507D28FE994B00E438F1 /* WSPopViewManager.m */,
+				E648507E28FE994B00E438F1 /* WSPopViewHelper.h */,
+				E648507F28FE994B00E438F1 /* WSPoppingAbstractView.m */,
+				E648508028FE994B00E438F1 /* UIView+Frame.h */,
+				E648508128FE994B00E438F1 /* UIColorAdditions.h */,
+				E648508328FE994B00E438F1 /* UIView+QKFrame.m */,
+			);
+			name = Classes;
+			path = ../WSPopViewManager/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,8 +327,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E648508F28FE99B900E438F1 /* SelectDatePopView.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				E648508628FE994B00E438F1 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -364,8 +416,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E648508928FE994B00E438F1 /* WSPoppingAbstractView.m in Sources */,
+				E648508B28FE994B00E438F1 /* UIView+QKFrame.m in Sources */,
+				E648508428FE994B00E438F1 /* WSPopViewHelper.m in Sources */,
+				E648508728FE994B00E438F1 /* UIColorAdditions.m in Sources */,
+				E648509028FE99B900E438F1 /* SelectDatePopView.m in Sources */,
 				6003F59E195388D20070C39A /* WSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
+				E648508528FE994B00E438F1 /* UIView+Frame.m in Sources */,
+				E648508828FE994B00E438F1 /* WSPopViewManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

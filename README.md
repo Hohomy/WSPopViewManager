@@ -22,7 +22,7 @@ pod 'WSPopViewManager'
 
 ## Author
 
-Homey, 820429583@qq.com
+Homey
 
 ## License
 

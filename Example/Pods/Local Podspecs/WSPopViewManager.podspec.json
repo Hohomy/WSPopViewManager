@@ -1,0 +1,22 @@
+{
+  "name": "WSPopViewManager",
+  "version": "0.1.0",
+  "summary": "A short description of WSPopViewManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Homey/WSPopViewManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Homey": "820429583@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Homey/WSPopViewManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WSPopViewManager/Classes/**/*"
+}

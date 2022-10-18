@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4E79A849C0E82BDE8B44B64FF1CD7C /* Pods-WSPopViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4BF7796A4FDC3A0276A03F36E2701A /* Pods-WSPopViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F3B29D3EAF7F592EB22108F99D0A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E90C2FE67C6A7BE357A89F5F4E4612B /* WSPopViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE06A199831FF1A2C6963D7A2C8ED7FD /* WSPopViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C92F0E3DA76AA76553414F31732721E /* WSPopViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659750F50CFB4CE059DC8A4A607F5047 /* WSPopViewManager-dummy.m */; };
+		7CDEF565B082F6FC52B9DF3E6781BB6C /* Pods-WSPopViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D66F86CA9B0D7EA77388FF5394907DA /* Pods-WSPopViewManager_Tests-dummy.m */; };
+		8AD1EBDB0C3C645FA036DE756CF7E8C9 /* Pods-WSPopViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F6681AD704262BD518A7C2F3A6B315 /* Pods-WSPopViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		900F952A7D5D47C7F85F5DA4F90E5963 /* Pods-WSPopViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A8526E610575B6CA2D63580B98A57A /* Pods-WSPopViewManager_Example-dummy.m */; };
+		91EAD3C3B8D46BD88F7388A2B84AA619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4BD7C9C72F07D415E5089A1DFBF62CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E19559C5B39EFD0B9EFB901FDB094B03 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A86CDEF8555B52523F9ABF5EB2D35116 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4143D00063B92AFEDA526B323C569DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5889B5004962C8FB55917B29989F6B5;
+			remoteInfo = "Pods-WSPopViewManager_Example";
+		};
+		F5E5AF9C731CF80D37960B5F61B03BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0292AD5D00B0761D1666145022A096C;
+			remoteInfo = WSPopViewManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2294042178242744779FFA9D01C779F9 /* Pods-WSPopViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSPopViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F1DB882D1FBFA354E3BE01C3A2C822C /* Pods-WSPopViewManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSPopViewManager_Example-Info.plist"; sourceTree = "<group>"; };
+		3353C1A7A1C3CC9D2A1EE5BB19FC6E01 /* WSPopViewManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSPopViewManager; path = WSPopViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C7A12596DD0E0260704864B5E68403 /* WSPopViewManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSPopViewManager.debug.xcconfig; sourceTree = "<group>"; };
+		3C900F1CBF52FEA9D8E338B173F5CF72 /* WSPopViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSPopViewManager-prefix.pch"; sourceTree = "<group>"; };
+		455500833D6ECCD171ABB42B9CF4D143 /* WSPopViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSPopViewManager.modulemap; sourceTree = "<group>"; };
+		4E4BF7796A4FDC3A0276A03F36E2701A /* Pods-WSPopViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSPopViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4F5DAE31C70C47D55F5C876D645CE0C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EF84AE203BDD03435DC28B1B5240C12 /* Pods-WSPopViewManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSPopViewManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		659750F50CFB4CE059DC8A4A607F5047 /* WSPopViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSPopViewManager-dummy.m"; sourceTree = "<group>"; };
+		67F6681AD704262BD518A7C2F3A6B315 /* Pods-WSPopViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSPopViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		6A54A891DEF8F8673D6844C5CA1B0714 /* Pods-WSPopViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSPopViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF79FC522CA7A12B00F493A3C8AE031 /* Pods-WSPopViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSPopViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D66F86CA9B0D7EA77388FF5394907DA /* Pods-WSPopViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSPopViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		82FEE0A3E57C4364F539041CABEC3B68 /* Pods-WSPopViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSPopViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A46EFC11AAA592196FAFAEA8CE7C101 /* Pods-WSPopViewManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WSPopViewManager_Tests"; path = Pods_WSPopViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908D8D74996DA820694EA51B3E1E8AA0 /* Pods-WSPopViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSPopViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9BC6EB67BA2B89577C1AAA3895D3EA40 /* Pods-WSPopViewManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WSPopViewManager_Example"; path = Pods_WSPopViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A751B6C68184D7BC4EB8E06542404C13 /* Pods-WSPopViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSPopViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A86CDEF8555B52523F9ABF5EB2D35116 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WSPopViewManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ABA29F4C62F10F98A43143C4F1E4C747 /* Pods-WSPopViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSPopViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD6502295C01913F9F93B89D9EF32668 /* Pods-WSPopViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSPopViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BEB5F1E17C111B1C52647B30BAF4BC /* Pods-WSPopViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSPopViewManager_Example.modulemap"; sourceTree = "<group>"; };
+		B63A9181DF336F12C366313F2627CFC7 /* WSPopViewManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WSPopViewManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7A8526E610575B6CA2D63580B98A57A /* Pods-WSPopViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSPopViewManager_Example-dummy.m"; sourceTree = "<group>"; };
+		D31F9B418E10D97AF272848005A67B51 /* Pods-WSPopViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSPopViewManager_Tests.modulemap"; sourceTree = "<group>"; };
+		D325707861715C0DE77BEA2E392166CB /* WSPopViewManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSPopViewManager.release.xcconfig; sourceTree = "<group>"; };
+		DE06A199831FF1A2C6963D7A2C8ED7FD /* WSPopViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSPopViewManager-umbrella.h"; sourceTree = "<group>"; };
+		E3D7447BB3C4C0C2C9BA22BAE1E91A49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E3F69E59E3A2329335F7C34156B34A0B /* Pods-WSPopViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSPopViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EAE2F4FF8D4E47147462BC429FA87FEA /* WSPopViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSPopViewManager-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C17811E00A02454E4E36863F9A1FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EAD3C3B8D46BD88F7388A2B84AA619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E73B696E46EFFAC0AB3E906EAA5D27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BD7C9C72F07D415E5089A1DFBF62CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D936E04752DA5110F1ECDA87F3AF2E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F3B29D3EAF7F592EB22108F99D0A50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148D399A7EE2A83830B983156A80EAA2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F5DAE31C70C47D55F5C876D645CE0C5 /* LICENSE */,
+				E3D7447BB3C4C0C2C9BA22BAE1E91A49 /* README.md */,
+				B63A9181DF336F12C366313F2627CFC7 /* WSPopViewManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		14F55BD4BFC450C3044079DEED043C85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B789507D0CB130B43E61577B2EC29090 /* Pods-WSPopViewManager_Example */,
+				AB1CA3909FE2F7342F47C8481D083C34 /* Pods-WSPopViewManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63F692E9D1AB718F41B31C44B81FE28F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D6C6BF11D643CCFCA1ADFD1CB728F4D /* WSPopViewManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6BAF60D8C62513555437D365285CA831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC6EB67BA2B89577C1AAA3895D3EA40 /* Pods-WSPopViewManager_Example */,
+				8A46EFC11AAA592196FAFAEA8CE7C101 /* Pods-WSPopViewManager_Tests */,
+				3353C1A7A1C3CC9D2A1EE5BB19FC6E01 /* WSPopViewManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6C6BF11D643CCFCA1ADFD1CB728F4D /* WSPopViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A86CDEF8555B52523F9ABF5EB2D35116 /* ReplaceMe.m */,
+				148D399A7EE2A83830B983156A80EAA2 /* Pod */,
+				A4895024C0B08A116BEAB3217AAE0EC9 /* Support Files */,
+			);
+			name = WSPopViewManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4895024C0B08A116BEAB3217AAE0EC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				455500833D6ECCD171ABB42B9CF4D143 /* WSPopViewManager.modulemap */,
+				659750F50CFB4CE059DC8A4A607F5047 /* WSPopViewManager-dummy.m */,
+				EAE2F4FF8D4E47147462BC429FA87FEA /* WSPopViewManager-Info.plist */,
+				3C900F1CBF52FEA9D8E338B173F5CF72 /* WSPopViewManager-prefix.pch */,
+				DE06A199831FF1A2C6963D7A2C8ED7FD /* WSPopViewManager-umbrella.h */,
+				37C7A12596DD0E0260704864B5E68403 /* WSPopViewManager.debug.xcconfig */,
+				D325707861715C0DE77BEA2E392166CB /* WSPopViewManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSPopViewManager";
+			sourceTree = "<group>";
+		};
+		AB1CA3909FE2F7342F47C8481D083C34 /* Pods-WSPopViewManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D31F9B418E10D97AF272848005A67B51 /* Pods-WSPopViewManager_Tests.modulemap */,
+				ABA29F4C62F10F98A43143C4F1E4C747 /* Pods-WSPopViewManager_Tests-acknowledgements.markdown */,
+				A751B6C68184D7BC4EB8E06542404C13 /* Pods-WSPopViewManager_Tests-acknowledgements.plist */,
+				7D66F86CA9B0D7EA77388FF5394907DA /* Pods-WSPopViewManager_Tests-dummy.m */,
+				5EF84AE203BDD03435DC28B1B5240C12 /* Pods-WSPopViewManager_Tests-Info.plist */,
+				4E4BF7796A4FDC3A0276A03F36E2701A /* Pods-WSPopViewManager_Tests-umbrella.h */,
+				6A54A891DEF8F8673D6844C5CA1B0714 /* Pods-WSPopViewManager_Tests.debug.xcconfig */,
+				6FF79FC522CA7A12B00F493A3C8AE031 /* Pods-WSPopViewManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-WSPopViewManager_Tests";
+			path = "Target Support Files/Pods-WSPopViewManager_Tests";
+			sourceTree = "<group>";
+		};
+		B789507D0CB130B43E61577B2EC29090 /* Pods-WSPopViewManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEB5F1E17C111B1C52647B30BAF4BC /* Pods-WSPopViewManager_Example.modulemap */,
+				82FEE0A3E57C4364F539041CABEC3B68 /* Pods-WSPopViewManager_Example-acknowledgements.markdown */,
+				2294042178242744779FFA9D01C779F9 /* Pods-WSPopViewManager_Example-acknowledgements.plist */,
+				C7A8526E610575B6CA2D63580B98A57A /* Pods-WSPopViewManager_Example-dummy.m */,
+				E3F69E59E3A2329335F7C34156B34A0B /* Pods-WSPopViewManager_Example-frameworks.sh */,
+				2F1DB882D1FBFA354E3BE01C3A2C822C /* Pods-WSPopViewManager_Example-Info.plist */,
+				67F6681AD704262BD518A7C2F3A6B315 /* Pods-WSPopViewManager_Example-umbrella.h */,
+				AD6502295C01913F9F93B89D9EF32668 /* Pods-WSPopViewManager_Example.debug.xcconfig */,
+				908D8D74996DA820694EA51B3E1E8AA0 /* Pods-WSPopViewManager_Example.release.xcconfig */,
+			);
+			name = "Pods-WSPopViewManager_Example";
+			path = "Target Support Files/Pods-WSPopViewManager_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				63F692E9D1AB718F41B31C44B81FE28F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6BAF60D8C62513555437D365285CA831 /* Products */,
+				14F55BD4BFC450C3044079DEED043C85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		133F6C80B4CF0853840B022B5C6C18EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD1EBDB0C3C645FA036DE756CF7E8C9 /* Pods-WSPopViewManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA0EEB3CAC5A4ECA69ED15062949492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4E79A849C0E82BDE8B44B64FF1CD7C /* Pods-WSPopViewManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4385048014983BB84614A64B98F69E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E90C2FE67C6A7BE357A89F5F4E4612B /* WSPopViewManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2174C259E106319C9A9B3C31A90182CA /* Pods-WSPopViewManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAABF0111CF0ECAD48CF21E01C69EED /* Build configuration list for PBXNativeTarget "Pods-WSPopViewManager_Tests" */;
+			buildPhases = (
+				1AA0EEB3CAC5A4ECA69ED15062949492 /* Headers */,
+				E753271BF6067C44A019612BD9DE2620 /* Sources */,
+				47C17811E00A02454E4E36863F9A1FAA /* Frameworks */,
+				7D8943E88E9A4120050235CD960972F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86CFE63CF67AA038641758BE2CFC469B /* PBXTargetDependency */,
+			);
+			name = "Pods-WSPopViewManager_Tests";
+			productName = Pods_WSPopViewManager_Tests;
+			productReference = 8A46EFC11AAA592196FAFAEA8CE7C101 /* Pods-WSPopViewManager_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5889B5004962C8FB55917B29989F6B5 /* Pods-WSPopViewManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A307BBAFF04ADF3436309DFBB8C768 /* Build configuration list for PBXNativeTarget "Pods-WSPopViewManager_Example" */;
+			buildPhases = (
+				133F6C80B4CF0853840B022B5C6C18EE /* Headers */,
+				ACEE59467FF76ACD463B19986E3CD1DD /* Sources */,
+				9E73B696E46EFFAC0AB3E906EAA5D27E /* Frameworks */,
+				420DC289E22E49E99A185768C4948944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF779ADE3D34961EE23580354CFD1EE /* PBXTargetDependency */,
+			);
+			name = "Pods-WSPopViewManager_Example";
+			productName = Pods_WSPopViewManager_Example;
+			productReference = 9BC6EB67BA2B89577C1AAA3895D3EA40 /* Pods-WSPopViewManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0292AD5D00B0761D1666145022A096C /* WSPopViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B33B5BBA51E557BC43FE3DB00283108 /* Build configuration list for PBXNativeTarget "WSPopViewManager" */;
+			buildPhases = (
+				DE4385048014983BB84614A64B98F69E /* Headers */,
+				9DA706ED0E226C5A83872B529AC32BA6 /* Sources */,
+				D936E04752DA5110F1ECDA87F3AF2E8B /* Frameworks */,
+				DCFDA7FEDEC3680B4FF8C00EE64A9F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSPopViewManager;
+			productName = WSPopViewManager;
+			productReference = 3353C1A7A1C3CC9D2A1EE5BB19FC6E01 /* WSPopViewManager */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6BAF60D8C62513555437D365285CA831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5889B5004962C8FB55917B29989F6B5 /* Pods-WSPopViewManager_Example */,
+				2174C259E106319C9A9B3C31A90182CA /* Pods-WSPopViewManager_Tests */,
+				E0292AD5D00B0761D1666145022A096C /* WSPopViewManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420DC289E22E49E99A185768C4948944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8943E88E9A4120050235CD960972F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFDA7FEDEC3680B4FF8C00EE64A9F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA706ED0E226C5A83872B529AC32BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19559C5B39EFD0B9EFB901FDB094B03 /* ReplaceMe.m in Sources */,
+				6C92F0E3DA76AA76553414F31732721E /* WSPopViewManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEE59467FF76ACD463B19986E3CD1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900F952A7D5D47C7F85F5DA4F90E5963 /* Pods-WSPopViewManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E753271BF6067C44A019612BD9DE2620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDEF565B082F6FC52B9DF3E6781BB6C /* Pods-WSPopViewManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF779ADE3D34961EE23580354CFD1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSPopViewManager;
+			target = E0292AD5D00B0761D1666145022A096C /* WSPopViewManager */;
+			targetProxy = F5E5AF9C731CF80D37960B5F61B03BE9 /* PBXContainerItemProxy */;
+		};
+		86CFE63CF67AA038641758BE2CFC469B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WSPopViewManager_Example";
+			target = B5889B5004962C8FB55917B29989F6B5 /* Pods-WSPopViewManager_Example */;
+			targetProxy = 4143D00063B92AFEDA526B323C569DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AFA0144E18DA547781DC412601DEC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908D8D74996DA820694EA51B3E1E8AA0 /* Pods-WSPopViewManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E3F0F69F210C3FE24F4D41EA148C754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D325707861715C0DE77BEA2E392166CB /* WSPopViewManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSPopViewManager/WSPopViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSPopViewManager/WSPopViewManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSPopViewManager/WSPopViewManager.modulemap";
+				PRODUCT_MODULE_NAME = WSPopViewManager;
+				PRODUCT_NAME = WSPopViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BA6954C58B5D25119B585A7B4BA949F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A54A891DEF8F8673D6844C5CA1B0714 /* Pods-WSPopViewManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9BEA219B399BEE821CA8706A2C5852EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6502295C01913F9F93B89D9EF32668 /* Pods-WSPopViewManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSPopViewManager_Example/Pods-WSPopViewManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DFD0514FD482EF59B7E188E082F6ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C7A12596DD0E0260704864B5E68403 /* WSPopViewManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSPopViewManager/WSPopViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSPopViewManager/WSPopViewManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSPopViewManager/WSPopViewManager.modulemap";
+				PRODUCT_MODULE_NAME = WSPopViewManager;
+				PRODUCT_NAME = WSPopViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3D62B2C9B1888B48CEBB7E2B622D55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF79FC522CA7A12B00F493A3C8AE031 /* Pods-WSPopViewManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSPopViewManager_Tests/Pods-WSPopViewManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EAABF0111CF0ECAD48CF21E01C69EED /* Build configuration list for PBXNativeTarget "Pods-WSPopViewManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA6954C58B5D25119B585A7B4BA949F /* Debug */,
+				E3D62B2C9B1888B48CEBB7E2B622D55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A307BBAFF04ADF3436309DFBB8C768 /* Build configuration list for PBXNativeTarget "Pods-WSPopViewManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEA219B399BEE821CA8706A2C5852EC /* Debug */,
+				0AFA0144E18DA547781DC412601DEC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B33B5BBA51E557BC43FE3DB00283108 /* Build configuration list for PBXNativeTarget "WSPopViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD0514FD482EF59B7E188E082F6ABF3 /* Debug */,
+				1E3F0F69F210C3FE24F4D41EA148C754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

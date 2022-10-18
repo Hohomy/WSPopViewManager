@@ -1,0 +1,6 @@
+framework module WSPopViewManager {
+  umbrella header "WSPopViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
