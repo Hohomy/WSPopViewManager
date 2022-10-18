@@ -26,7 +26,6 @@
 		C46A0D112464549239D59BD6 /* Pods_WSPopViewManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84688F7F44CDA7A7B7B9559E /* Pods_WSPopViewManager_Example.framework */; };
 		E648508428FE994B00E438F1 /* WSPopViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507628FE994B00E438F1 /* WSPopViewHelper.m */; };
 		E648508528FE994B00E438F1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507928FE994B00E438F1 /* UIView+Frame.m */; };
-		E648508628FE994B00E438F1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E648507A28FE994B00E438F1 /* .gitkeep */; };
 		E648508728FE994B00E438F1 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507C28FE994B00E438F1 /* UIColorAdditions.m */; };
 		E648508828FE994B00E438F1 /* WSPopViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507D28FE994B00E438F1 /* WSPopViewManager.m */; };
 		E648508928FE994B00E438F1 /* WSPoppingAbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648507F28FE994B00E438F1 /* WSPoppingAbstractView.m */; };
@@ -80,7 +79,6 @@
 		E648507728FE994B00E438F1 /* WSPopViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPopViewManager.h; sourceTree = "<group>"; };
 		E648507828FE994B00E438F1 /* WSPoppingAbstractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPoppingAbstractView.h; sourceTree = "<group>"; };
 		E648507928FE994B00E438F1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		E648507A28FE994B00E438F1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		E648507B28FE994B00E438F1 /* UIView+QKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QKFrame.h"; sourceTree = "<group>"; };
 		E648507C28FE994B00E438F1 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
 		E648507D28FE994B00E438F1 /* WSPopViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPopViewManager.m; sourceTree = "<group>"; };
@@ -228,7 +226,6 @@
 		E648507528FE994B00E438F1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E648507A28FE994B00E438F1 /* .gitkeep */,
 				E648507628FE994B00E438F1 /* WSPopViewHelper.m */,
 				E648507728FE994B00E438F1 /* WSPopViewManager.h */,
 				E648507828FE994B00E438F1 /* WSPoppingAbstractView.h */,
@@ -330,7 +327,6 @@
 				E648508F28FE99B900E438F1 /* SelectDatePopView.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				E648508628FE994B00E438F1 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
