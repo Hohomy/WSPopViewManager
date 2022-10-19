@@ -32,6 +32,8 @@
 		E648508B28FE994B00E438F1 /* UIView+QKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E648508328FE994B00E438F1 /* UIView+QKFrame.m */; };
 		E648508F28FE99B900E438F1 /* SelectDatePopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E648508C28FE99B900E438F1 /* SelectDatePopView.xib */; };
 		E648509028FE99B900E438F1 /* SelectDatePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648508D28FE99B900E438F1 /* SelectDatePopView.m */; };
+		E648509228FFA27F00E438F1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E648509128FFA27F00E438F1 /* ReplaceMe.m */; };
+		E648509428FFA2B000E438F1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E648509328FFA2B000E438F1 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		E648508C28FE99B900E438F1 /* SelectDatePopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDatePopView.xib; sourceTree = "<group>"; };
 		E648508D28FE99B900E438F1 /* SelectDatePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDatePopView.m; sourceTree = "<group>"; };
 		E648508E28FE99B900E438F1 /* SelectDatePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDatePopView.h; sourceTree = "<group>"; };
+		E648509128FFA27F00E438F1 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		E648509328FFA2B000E438F1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 		E648507528FE994B00E438F1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E648509328FFA2B000E438F1 /* .gitkeep */,
+				E648509128FFA27F00E438F1 /* ReplaceMe.m */,
 				E648507628FE994B00E438F1 /* WSPopViewHelper.m */,
 				E648507728FE994B00E438F1 /* WSPopViewManager.h */,
 				E648507828FE994B00E438F1 /* WSPoppingAbstractView.h */,
@@ -327,6 +333,7 @@
 				E648508F28FE99B900E438F1 /* SelectDatePopView.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				E648509428FFA2B000E438F1 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -419,6 +426,7 @@
 				E648509028FE99B900E438F1 /* SelectDatePopView.m in Sources */,
 				6003F59E195388D20070C39A /* WSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
+				E648509228FFA27F00E438F1 /* ReplaceMe.m in Sources */,
 				E648508528FE994B00E438F1 /* UIView+Frame.m in Sources */,
 				E648508828FE994B00E438F1 /* WSPopViewManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
